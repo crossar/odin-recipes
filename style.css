@@ -5,11 +5,6 @@ body {
     background-color: rgba(246, 246, 246, 0.969);
     font-family: Cursive;
 }
-.menu{
-    padding: 0 10px 30px 10px;
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
-}
 .heading {
     background-color: rgb(131, 204, 231);
     color: rgb(255, 255, 255);
@@ -23,33 +18,31 @@ body {
     font-size: 40px;
     letter-spacing: 10px;
     margin-bottom: 10px;
-    display: inline;
 }
 #logo {
     width: 100px;
     height:100px;
     margin-left: 650px;
     margin-right: auto;
-    display: block;
-    position: absolute;
     padding-top: 10px;
 }
 
 .row {
-    gap: 40;
     display: flex;
+    gap: 20;
+    grid-column: 1/-1;
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
   
 .column {
+    background: lightblue;
     flex: 1;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 30vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
-
-div img{
-    width: 500px;
-    height:500px;
-    align-items: center;
+.column + .column {
+    margin-left: 2em;
 }
