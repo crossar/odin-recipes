@@ -4,6 +4,8 @@ body{
     background-color: rgb(251, 251, 251);
     color: rgb(144, 31, 31);
     font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
 }
 img {
     display: block;
@@ -23,19 +25,11 @@ h1 {
    border-style: solid;
    border-width: 5px;
    border-radius: 15px 15px 15px 15px;
-   padding: 10px;
+   padding: 40px;
+   padding-bottom: 60px;
    margin: auto;
-   text-align: center;
 }
 
-ul {
-    text-align: center;  
-    list-style: none;          
-}
 
-ol {
-    text-align: center;  
-    list-style: none;            
-}
 
 
