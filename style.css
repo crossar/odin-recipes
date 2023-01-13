@@ -15,6 +15,9 @@ a:hover{
 
 
 .heading {
+    background-image: url("images/cook.jpg");
+    opacity: 1;
+    background-size: cover;
     background-color: rgb(167, 62, 62);
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
