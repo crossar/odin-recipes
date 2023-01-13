@@ -5,28 +5,31 @@ body {
     background-color: rgba(246, 246, 246, 0.969);
     font-family: Cursive;
 }
+
+a:hover{
+    transform: scale(1.02);
+    transition: all;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(184, 64, 62);
+}
+
+
 .heading {
-    background-color: rgb(131, 204, 231);
+    background-color: rgb(167, 62, 62);
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
-    padding: 30px 0;
+    padding: 60px 0;
     grid-column: 1/-1;
     text-align: center;
+    height: 300px;
 }
 .heading>h1 {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 150px;
     letter-spacing: 10px;
-    margin-bottom: 10px;
+    margin-bottom: -40px;
+    margin-top: 40px;
 }
-#logo {
-    width: 100px;
-    height:100px;
-    margin-left: 650px;
-    margin-right: auto;
-    padding-top: 10px;
-}
-
 .row {
     display: flex;
     gap: 20;
@@ -38,7 +41,7 @@ body {
 .column {
     background: lightblue;
     flex: 1;
-    height: 30vh;
+    height: 45vh;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -46,3 +49,4 @@ body {
 .column + .column {
     margin-left: 2em;
 }
+
