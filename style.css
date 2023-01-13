@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(246, 246, 246, 0.969);
-    font-family: Cursive;
+    font-family: Papyrus;
 }
 
 a:hover{
@@ -36,6 +36,9 @@ a:hover{
     grid-column: 1/-1;
     margin-left: 20vw;
     margin-right: 20vw;
+    gap: 40px;
+    margin-top: 8vh;
+   
   }
   
 .column {
@@ -49,4 +52,3 @@ a:hover{
 .column + .column {
     margin-left: 2em;
 }
-
